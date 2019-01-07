@@ -12,7 +12,7 @@ nano .bash_profile
 
 // and paste the below on the bottom of the file
 
-export GOPATH=/Users/konstantinkuzmenko/Documents/Go
+export GOPATH=~/Documents/Go
 
 export GOBIN=$GOPATH/bin
 
