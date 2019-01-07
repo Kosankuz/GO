@@ -13,3 +13,12 @@ echo “export GOBIN=$GOPATH/bin” >> .bash_profile
 echo “export PATH=$PATH:$GOPATH:$GOBIN” >> .bash_profile
 
 echo “export PATH” >> .bash_profile
+
+
+Now restart terminal
+
+to check 
+
+echo $GOPATH
+echo $GOBIN
+cat .bash_profile
