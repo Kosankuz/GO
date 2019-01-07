@@ -1,0 +1,15 @@
+mkdir -p /Users/username/Documents/Go
+mkdir -p /Users/username/Documents/Go/src
+mkdir -p /Users/username/Documents/Go/src/Hello
+mkdir -p /Users/username/Documents/Go/pkg
+mkdir -p /Users/username/Documents/Go/bin
+
+cd ~
+
+echo “export GOPATH=/Users/username/Documents/Go” >> .bash_profile
+
+echo “export GOBIN=$GOPATH/bin” >> .bash_profile
+
+echo “export PATH=$PATH:$GOPATH:$GOBIN” >> .bash_profile
+
+echo “export PATH” >> .bash_profile
