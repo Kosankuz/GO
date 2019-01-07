@@ -6,7 +6,7 @@ mkdir -p ~/Documents/Go/bin
 
 cd ~
 
-echo “export GOPATH=/Users/username/Documents/Go” >> .bash_profile
+echo “export GOPATH=~/Documents/Go” >> .bash_profile
 
 echo “export GOBIN=$GOPATH/bin” >> .bash_profile
 
