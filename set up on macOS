@@ -20,10 +20,12 @@ export PATH=$PATH:$GOPATH:$GOBIN
 
 export PATH
 
+// press ctrl+x  , to save amended file
 
-Now restart terminal (you can do it by holding two keys together : cmd+Q on a keyboard)
 
-to check 
+//Now restart terminal (you can do it by holding two keys together : cmd+Q on a keyboard)
+
+//to check 
 
 echo $GOPATH
 echo $GOBIN
