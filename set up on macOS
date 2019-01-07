@@ -1,8 +1,8 @@
-mkdir -p /Users/username/Documents/Go
-mkdir -p /Users/username/Documents/Go/src
-mkdir -p /Users/username/Documents/Go/src/Hello
-mkdir -p /Users/username/Documents/Go/pkg
-mkdir -p /Users/username/Documents/Go/bin
+mkdir -p ~/Documents/Go
+mkdir -p ~/Documents/Go/src
+mkdir -p ~/Documents/Go/src/Hello
+mkdir -p ~/Documents/Go/pkg
+mkdir -p ~/Documents/Go/bin
 
 cd ~
 
