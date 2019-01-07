@@ -15,7 +15,7 @@ echo “export PATH=$PATH:$GOPATH:$GOBIN” >> .bash_profile
 echo “export PATH” >> .bash_profile
 
 
-Now restart terminal
+Now restart terminal (you can do it by holding two keys together : cmd+Q on a keyboard)
 
 to check 
 
