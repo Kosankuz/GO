@@ -6,13 +6,19 @@ mkdir -p ~/Documents/Go/bin
 
 cd ~
 
-echo "export GOPATH=/Users/konstantinkuzmenko/Documents/Go" >> .bash_profile
+//open .bash_profile
 
-echo "export GOBIN=$GOPATH/bin" >> .bash_profile
+nano .bash_profile
 
-echo "export PATH=$PATH:$GOPATH:$GOBIN" >> .bash_profile
+// and paste the below on the bottom of the file
 
-echo "export PATH" >> .bash_profile
+export GOPATH=/Users/konstantinkuzmenko/Documents/Go
+
+export GOBIN=$GOPATH/bin
+
+export PATH=$PATH:$GOPATH:$GOBIN
+
+export PATH
 
 
 Now restart terminal (you can do it by holding two keys together : cmd+Q on a keyboard)
